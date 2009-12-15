@@ -1,0 +1,71 @@
+<!doctype html><html><head>
+    <link rel="stylesheet" style="text/css" href="<!--(if assets == "local")-->..<!--(end)-->/m.css"/>
+    <!--[if IE 6]><link rel="stylesheet" style="text/css" href="../6.css"/><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" style="text/css" href="../7.css"/><![endif]-->
+    <link rel="icon" id="fav" type="image/png" href="1/f.png">
+</head>
+<body class="fitpage">
+<div id="n2"></div>
+<div id="n1"></div>
+<div id="n">
+	<ul>
+	<a href="home.html">IC:/</a>
+	<li>
+		<a href="section">Sports Logos/</a>
+		<span>
+			<a href="section">Emblems</a>
+			<a href="section">Russian Propaganda Posters</a>
+			<a href="section">Other badass shit</a>
+		</span>
+	</li>
+	<li>
+	<a href="section">A to F/</a>
+		<span>
+			<a href="section">G to N</a>
+			<a href="section">M to Z</a>
+		</span>
+	</li>
+	<a href="none" id="cur"></a>
+	</ul>
+	<div id="nav">
+		<a href="#Previous" class="prev">&lt; Previous</a>
+		<a href="#Next" class="next">Next &gt;</a>
+	</div>
+	<ol>
+	<a id="fitpage" href="Reduce image to fit on the page">Fit Page</a>
+
+	<a id="fitwidth" href="Reduce image to fit the page width">Fit Width</a>
+	<a id="fullsize" href="Unresized original image">Full Size</a>
+	<a id="hiderows" href="Hide adjacent rows while viewing images">Hide Row</a>
+	<li>
+		<a href="#">Set Theme</a>
+		<span>
+			<a href="description" id="default-d06">Default</a>
+
+			<a href="description" id="black-s02">Blackout</a>
+			<a href="description" id="hotdog-m02b08">Hotdog</a>
+			<a href="description" id="night-s06">Nighthawks</a>
+			<a href="description" id="pw-b06">Papayawhip</a>
+			<a href="description" id="spaced-m08b12">Spaced</a>
+			<a href="description" id="system-m08b12">System</a>
+
+			<a href="description" id="bright-b06">Whiteout</a>
+		</span>
+	</li>
+	</ol>
+</div>
+<div id="g">
+<script type="text/javascript" src="<!--(if assets == "local")-->../jquery.js<!--(else)-->http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js<!--(end)-->"></script><script type="text/javascript" src="<!--(if assets == "local")-->..<!--(end)-->/m.js"></script>
+    <div></div>
+<!--(for i in meta)-->
+<a href="@!i["id"]!@/#@!str(i["size"][0]).zfill(4)!@@!str(i["size"][1]).zfill(4)!@" style=width:@!i["thumb_width"]!@px id=t@!i["id"]!@><img src="@!i["thumb_url"]!@.jpg" style=left:-@!i["thumb_offset"]!@px alt="@!i["title"]!@"/></a>
+    <!--(if i["id"] is 100)-->
+    <script type="text/javascript">t(0);</script>
+    <!--(end)-->
+<!--(end)-->
+
+
+    <div id="finaldiv"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[Category Settings]
+title = section3\subsection2
+[037wet-flyers.jpg]
+title = 037Wet Flyers
+width = 751
+height = 563
+[038new-deph-best.jpg]
+title = 038New Deph Best
+width = 357
+height = 953
+[039crsd.jpg]
+title = 039Crsd
+width = 700
+height = 350
+[040blest-caught-web.jpg]
+title = 040Blest Caught Web
+width = 728
+height = 785
+[041skull-flyer.jpg]
+title = 041Skull Flyer
+width = 542
+height = 484
+[042lady-bird.jpg]
+title = 042Lady Bird
+width = 1204
+height = 1012
+[043blest-puppet-web.jpg]
+title = 043Blest Puppet Web
+width = 700
+height = 941
+[044oi-painting.jpg]
+title = 044Oi Painting
+width = 817
+height = 1083
+[045i&t.jpg]
+title = 045I&T
+width = 699
+height = 600
